@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header-content {
+    text-align: center;
+    padding-top: 40px;
+    background-image: url(https://29comwzoq712ml5vj5gf479x-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/circles-r2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.lnk-nav {
+    display: flex;
+    height: 500px;
+    justify-content: stretch;
+}
+
+#link {
+    order: 1;
+    background-color: #eee;
+    font-size: 20px;
+    line-height: 3em;
+}
+
+#content {
+    flex-grow: 1;
+    order: 2;
+    padding: 30px 10px;
+    text-align: justify;
+    background-color: #848abc;
+}
+
+.linkbtn {
+    width: 200px;
+}
+
+#link ul li {
+    list-style-type: none;
+    text-align: center;
+}
+
+#link ul li a {
+    text-decoration: none;
+    color: #0a1408;
+}
+
+#link ul li:hover {
+    text-decoration: underline;
+}
